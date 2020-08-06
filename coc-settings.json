@@ -1,4 +1,19 @@
 {
+ "explorer.sources": [
+    {
+      "name": "buffer",
+      "expand": false
+    },
+    {
+      "name": "file",
+      "expand": true
+    }
+  ],
+  "explorer.icon.enableNerdfont": true,
+  "explorer.width": 25,
+  "explorer.previewAction.onHover": false,
+  "explorer.file.root.template": "[icon] [title] [root]",
+  "explorer.buffer.child.template": "[selection | 1] [bufnr] [name][modified][readonly]",
   "languageserver": {
     "golang": {
       "command": "gopls",
